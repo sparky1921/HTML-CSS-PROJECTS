@@ -1,0 +1,185 @@
+/* Universal Style Starts Here */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(30, 38%, 92%);
+}
+
+.container {
+  background-color: white;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+img {
+  width: 100%;
+}
+
+.content {
+  padding: 20px;
+}
+
+.perfume {
+  font-size: 12px;
+  letter-spacing: 4px;
+  color: rgb(98, 98, 98);
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+h1 {
+  word-wrap: break-word;
+  text-transform: capitalize;
+  font-size: 30px;
+  font-weight: 800;
+  line-height: 34px;
+  margin: 10px 0px;
+  font-family: 'Fraunces', serif;
+}
+
+.description {
+  font-size: 12px;
+  color: rgb(98, 98, 98);
+  word-wrap: break-word;
+  margin: 10px 0px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+
+.price-container {
+  margin: 10px 0px;
+  display: inline-block;
+}
+
+.price {
+  font-size: 24px;
+  font-weight: 800;
+  margin-right: 10px;
+  color: hsl(158, 36%, 37%);
+  display: inline-block;
+  vertical-align: middle;
+  font-family: 'Fraunces', serif;
+}
+
+.deletedprice {
+  text-decoration: line-through;
+  font-size: 12px;
+  color: rgb(98, 98, 98);
+  display: inline-block;
+  vertical-align: middle;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.addtocart {
+  background-color: hsl(158, 36%, 37%);
+  width: 100%;
+  border-radius: 5px;
+  text-align: center;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+}
+
+a img {
+  width: 12px;
+  height: 12px;
+  margin-right: 10px;
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+}
+/* Universal Style Ends Here */
+
+/* Mobile Layout Styles Starts Here */
+@media only screen and (max-width: 767px) {
+  .container {
+    width: 90%;
+  }
+  img.desktop {
+    display: none;
+  }
+  img {
+    border-radius: 5px 5px 0px 0px;
+  }
+}
+/* Mobile Layout Styles Ends Here */
+
+/* Desktop Layout Styles Starts Here */
+@media only screen and (min-width: 768px) {
+  .container {
+    width: 50%;
+    border-radius: 20px;
+  }
+  .wrapper {
+    display: flex;
+    height: 100%;
+    flex-direction: row;
+  }
+  img.mobile {
+    display: none;
+  }
+  img {
+    border-radius: 20px 0px 0px 20px;
+  }
+  .image {
+    flex: 50%;
+  }
+  .content {
+    flex: 50%;
+    padding: 50px;
+  }
+  .text {
+    font-size: 16px;
+  }
+  a {
+    font-size: 16px;
+  }
+  a img {
+    width: 16px;
+    height: 16px;
+  }
+  .perfume {
+    margin-bottom: 20px;
+  }
+  h1 {
+    font-size: 36px;
+    margin: 20px 0px;
+  }
+  .description {
+    margin: 20px 0px;
+    line-height: 26px;
+  }
+  .price-container {
+    margin: 20px 0px;
+  }
+  .price {
+    font-size: 36px;
+  }
+  .addtocart {
+    padding: 15px;
+  }
+}
