@@ -1,0 +1,105 @@
+/* Universal Style Starts Here */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.container {
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+}
+
+.image img {
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+    height: 250px;
+}
+
+.summary {
+    padding: 30px;
+    width: 100%;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-weight: 900;
+}
+
+.description {
+    word-wrap: break-word;
+    color: grey;
+    line-height: 25px;
+    margin: 20px 0px;
+    font-weight: 500;
+}
+
+.subscription {
+    width: 100%;
+    margin: 20px 0px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: hsl(225, 100%, 98%);
+    display: flex;
+  justify-content: space-evenly; /* Horizontally center the child elements */
+  align-items: center;
+}
+
+.subscription img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: hsl(224, 23%, 55%);
+}
+.plan-text {
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+.price {
+    color: grey;
+    font-weight: 500;
+}
+a.change {
+    color: rgb(84, 51, 183);
+    font-weight: 700;
+}
+
+.payment {
+    border-radius: 10px;
+    background-color: hsl(245, 75%, 52%);
+    padding: 20px;
+    margin: 20px 0px;
+    box-shadow: 0px 2px 10px black;
+}
+.payment a {
+    color: white;
+    font-size: 1.1rem;
+    text-decoration: none;
+    font-weight: 700;
+    word-spacing: 3px;
+}
+
+.cancel a {
+    text-decoration: none;
+    color: grey;
+    font-weight: 700;
+    font-size: 1.1rem;
+    text-shadow: 0px 0px 1px rgb(107, 107, 107);
+}
+
