@@ -1,0 +1,225 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    word-wrap: break-word;
+}
+
+body {
+    font-size: 18px;
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 767px) {
+header {
+    background-color: rgb(202, 240, 255);
+    padding: 15px;
+}
+.top-bar {
+    margin: 10px 0px 40px 0px;
+}
+
+img.logo {
+    float: left;
+    width: 100px;
+    height: 15px;
+    margin: 5px;
+}
+
+.try-it-free {
+    float: right;
+    text-decoration: none;
+    padding: 5px 20px;
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+    font-size: 14px;
+    box-shadow: 0px 0px 10px rgb(223, 223, 223);
+}
+
+.top-bar:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.main-bar {
+    padding: 15px;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0px;
+    line-height: 45px;
+}
+
+.description {
+    margin: 20px 0px;
+    text-align: center;
+    line-height: 22px;
+}
+
+.get-started {
+    text-align: center;
+    margin: 30px 0px 60px 0px;
+}
+.start {
+    background-color: hsl(322, 100%, 66%);
+    padding: 10px 60px;
+    border-radius: 40px;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+.mockup {
+    margin: auto;
+    width: 100%;
+}
+.mockup img {
+    margin: 40px auto 20px auto;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container {
+    padding: 60px 0px;
+}
+
+.wrapper {
+    width: 80%;
+    margin: 0px auto 80px auto;
+    height: auto;
+}
+
+.card {
+    width: 100%;
+    background-color: white;
+    margin: 0px auto 40px auto;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgb(219, 219, 219);
+    padding: 40px;
+}
+
+.card-wrapper {
+    text-align: center;
+}
+
+
+.illustration {
+    width: 70%;
+    margin: 0px auto 40px auto;
+}
+
+.card-title {
+    margin-bottom: 20px;
+}
+
+.card-description {
+    color: rgb(127, 127, 127);
+}
+}
+
+.community {
+    margin: auto;
+    width: 90%;
+    padding: 40px 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgb(225, 225, 225);
+}
+
+.community h3 {
+    text-align: center;
+}
+
+.community .get-started {
+    margin: 0px auto 0px;
+    padding: 10px 40px;
+}
+
+.community .start {
+    padding: 10px 40px;
+}
+
+
+/* footer styles */
+footer {
+    padding: 40px;
+    background-color: hsl(192, 100%, 9%);
+    color: white;
+}
+
+.logo-wrapper {
+    margin-top: 100px;
+}
+
+.logo-footer {
+    filter: brightness(0) invert(1) sepia(1) hue-rotate(180deg); 
+    width: 40%;
+    height: 100%;
+    margin-bottom: 15px;
+}
+
+
+.contacts {
+    width: 100%;
+    margin-bottom: 30px;
+    display: flex;
+  flex-direction: column;
+}
+
+.address, .call, .email {
+    margin: 20px 0px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.icon {
+    margin: 2px 25px 0px 0px;
+}
+
+.link-list {
+    list-style: none;
+    margin-bottom: 45px;
+}
+
+.link-list li {
+    margin-bottom: 20px;
+    word-spacing: 2px;
+}
+
+
+
+.social-icons {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.social-media-icons {
+    width: 30px;
+    margin: 0px 10px;
+    filter: brightness(0) invert(1) sepia(1) hue-rotate(180deg);
+    padding: 5px;
+    outline: 1px solid white;
+    border-radius: 50%;
+}
+
+.copyright {
+    text-align: center;
+    font-size: 14px;
+}
+
+
+.container, footer {
+    position: relative;
+}
+
+.community {
+        position: absolute;
+        background-color: white;
+        left: 20px;
+        bottom: -80px;
+        z-index: 1;
+}
